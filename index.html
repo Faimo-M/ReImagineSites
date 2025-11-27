@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReImagine Sites - Sites Profissionais para Seu Negócio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                 <span>ReImagine Sites</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+              
+            </ul>
+            <button class="cta-button">Começar</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Sites que Vendem</h1>
+            <p>Criamos sites minimalistas, rápidos e eficazes para alavancar seu negócio. Sem complexidade, apenas resultados.</p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="primary-button">Ver Portfólio</a>
+                <button class="secondary-button" onclick="openContactModal()">Agendar Demo</button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <div class="card-content">
+                    <div class="icon">📱</div>
+                    <span>Responsivo</span>
+                </div>
+            </div>
+            <div class="floating-card card-2">
+                <div class="card-content">
+                    <div class="icon">⚡</div>
+                    <span>Ultra Rápido</span>
+                </div>
+            </div>
+            <div class="floating-card card-3">
+                <div class="card-content">
+                    <div class="icon">🎨</div>
+                    <span>Design Moderno</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="about-content">
+            <h2>Por que escolher a ReImagine Sites?</h2>
+            <p class="about-subtitle">Especialistas em transformar necessidades em soluções digitais inteligentes</p>
+            
+            <div class="about-grid">
+                <div class="about-item">
+                    <div class="about-icon">🚀</div>
+                    <h3>Entrega Rápida</h3>
+                    <p>Seu site pronto em semanas, não meses. Agimos com eficiência sem sacrificar qualidade.</p>
+                </div>
+                <div class="about-item">
+                    <div class="about-icon">💡</div>
+                    <h3>Estratégia Focada</h3>
+                    <p>Cada pixel tem um propósito. Criamos sites pensando em conversão e resultados.</p>
+                </div>
+                <div class="about-item">
+                    <div class="about-icon">🔒</div>
+                    <h3>Segurança Total</h3>
+                    <p>Certificado SSL, backup automático e suporte técnico. Seu site seguro 24/7.</p>
+                </div>
+                <div class="about-item">
+                    <div class="about-icon">📊</div>
+                    <h3>Análises Claras</h3>
+                    <p>Dashboard intuitivo para acompanhar visitantes, conversões e performance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="servicos">
+        <h2>Nossos Serviços</h2>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🎯</div>
+                <h3>Landing Page</h3>
+                <p>Página única focada em conversão para capturar leads e gerar vendas.</p>
+                <ul class="features">
+                    <li>✓ Design otimizado para conversão</li>
+                    <li>✓ Formulário de contato</li>
+                    <li>✓ Integração com WhatsApp</li>
+                    <li>✓ Totalmente responsivo</li>
+                </ul>
+                <div class="price">A partir de $25 USD</div>
+                <button class="service-button">Saiba Mais</button>
+            </div>
+
+            <div class="service-card featured">
+                <div class="badge">Mais Popular</div>
+                <div class="service-icon">🌐</div>
+                <h3>Website Simples</h3>
+                <p>Site informativo perfeito para apresentar seu negócio online com estilo.</p>
+                <ul class="features">
+                    <li>✓ Até 5 páginas</li>
+                    <li>✓ Design responsivo</li>
+                    <li>✓ Otimizado para SEO</li>
+                    <li>✓ Formulário de contato</li>
+                </ul>
+                <div class="price">A partir de $75 USD</div>
+                <button class="service-button">Saiba Mais</button>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">💼</div>
+                <h3>Website Completo</h3>
+                <p>Site robusto com múltiplas funcionalidades e painel administrativo.</p>
+                <ul class="features">
+                    <li>✓ Páginas ilimitadas</li>
+                    <li>✓ Painel administrativo</li>
+                    <li>✓ Blog integrado</li>
+                    <li>✓ Suporte prioritário</li>
+                </ul>
+                <div class="price">A partir de $120 USD</div>
+                <button class="service-button">Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <h2>Últimos Projetos</h2>
+        <p class="portfolio-subtitle">Veja alguns dos sites que criamos para nossos clientes</p>
+
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <div class="portfolio-image" style="background-image: url('images/clinica.png'); background-size: cover; background-position: center;"></div>
+                <h3>Clínica Odontológica Viva Mais</h3>
+                <p>Site profissional com agendamento online, serviços dentários e depoimentos de pacientes</p>
+                <a href="https://exemploclinicaodontologica.com/" class="portfolio-link" target="_blank">Ver Projeto →</a>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image" style="background-image: url('images/oficina.png'); background-size: cover; background-position: center;"></div>
+                <h3>Oficina Mecânica AutoGear</h3>
+                <p>Site responsivo com catálogo de serviços automotivos e sistema de orçamento</p>
+                <a href="https://exemplooficinamecanica.com/" class="portfolio-link" target="_blank">Ver Projeto →</a>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image" style="background-image: url('images/padaria.png'); background-size: cover; background-position: center;"></div>
+                <h3>Padaria do Seu Antonio</h3>
+                <p>Site com cardápio digital, informações sobre produtos artesanais frescos diariamente</p>
+                <a href="https://exemplopadaria.com/" class="portfolio-link" target="_blank">Ver Projeto →</a>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image" style="background-image: url('images/lojaderoupa.png'); background-size: cover; background-position: center;"></div>
+                <h3>Loja Novo Outfit</h3>
+                <p>E-commerce de moda com catálogo de produtos, tendências e experiência de compra otimizada</p>
+                <a href="https://exemplolojaderoupas.com/" class="portfolio-link" target="_blank">Ver Projeto →</a>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image" style="background-image: url('images/restaurante.png'); background-size: cover; background-position: center;"></div>
+                <h3>Restaurante Comida Caseira</h3>
+                <p>Site com cardápio completo, informações de contato e atmosfera acolhedora do restaurante</p>
+                <a href="https://exemplorestaurante.com/" class="portfolio-link" target="_blank">Ver Projeto →</a>
+            </div>
+
+            <div class="portfolio-item">
+                <div class="portfolio-image" style="background: linear-gradient(135deg, #30cfd0 0%, #330867 100%);"></div>
+                <h3>Mais Projetos em Breve</h3>
+                <p>Estamos desenvolvendo novos projetos incríveis para complementar nosso portfólio</p>
+                <a href="#contato" class="portfolio-link">Vamos Começar! →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="cta-content">
+            <h2>Pronto para alavancar seu negócio?</h2>
+            <p>Vamos criar uma presença digital que funciona para você</p>
+            <button class="cta-main-button">Iniciar Projeto</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>ReImagine Sites</h4>
+                <p>Criando sites que vendem desde 2020</p>
+            </div>
+            <div class="footer-section">
+                <h4>Serviços</h4>
+                <ul>
+                    <li><a href="#servicos">Landing Page</a></li>
+                    <li><a href="#servicos">Website Simples</a></li>
+                    <li><a href="#servicos">Website Completo</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Empresa</h4>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Redes Sociais</h4>
+                <div class="social-links">
+                    <a href="#" class="social-icon">f</a>
+                    <a href="#" class="social-icon">in</a>
+                    <a href="#" class="social-icon">@</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 ReImagine Sites. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Contact Form Modal -->
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Entre em Contato</h2>
+            <form class="contact-form" id="contactForm">
+                <input type="text" placeholder="Seu nome" required>
+                <input type="email" placeholder="Seu email" required>
+                <input type="text" placeholder="Nome da empresa" required>
+                <textarea placeholder="Conte-nos sobre seu projeto..." rows="5" required></textarea>
+                <button type="submit" class="submit-button">Enviar Mensagem</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
