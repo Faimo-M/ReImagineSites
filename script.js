@@ -1,6 +1,6 @@
 // Modal Functionality
 const modal = document.getElementById('contactModal');
-const ctaButtons = document.querySelectorAll('.cta-button, .primary-button, .cta-main-button, .service-button');
+const ctaButtons = document.querySelectorAll('.cta-button, .primary-button, .cta-main-button, .service-button, .secondary-button');
 const closeBtn = document.querySelector('.close');
 const contactForm = document.getElementById('contactForm');
 
@@ -8,6 +8,9 @@ const contactForm = document.getElementById('contactForm');
 function openContactModal() {
     modal.style.display = 'block';
 }
+
+// Expose to global scope so inline `onclick="openContactModal()"` works
+window.openContactModal = openContactModal;
 
 // Open Modal
 ctaButtons.forEach(button => {
