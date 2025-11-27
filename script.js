@@ -1,8 +1,3 @@
-import { inject } from "@vercel/analytics";
-
-// Initialize Vercel Analytics
-inject();
-
 // Modal Functionality
 const modal = document.getElementById('contactModal');
 const ctaButtons = document.querySelectorAll('.cta-button, .primary-button, .cta-main-button, .service-button');
